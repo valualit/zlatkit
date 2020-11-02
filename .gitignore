@@ -13,5 +13,5 @@ yarn-error.log
 .phpstorm.meta.php
 .phpdoc/
 worker.log
-.idea/
-
+/.idea/
+/docker/sourcefiles/
