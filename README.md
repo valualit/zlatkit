@@ -4,9 +4,14 @@
 </head>
 <body>
 <p>
+// Create project
+mkdir zlatkit
+cd zlatkit
+git clone https://github.com/yanzlatov/zlatkit.git .
+
 // Start docker<br />
-cp .env.example .env<br />
 cd docker<br />
+cp .env.example .env<br />
 docker-compose build<br />
 docker-compose up -d<br />
 <br />
