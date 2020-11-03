@@ -4,10 +4,10 @@
 </head>
 <body>
 <p>
-// Create project
-mkdir zlatkit
-cd zlatkit
-git clone https://github.com/yanzlatov/zlatkit.git .
+// Create project<br />
+mkdir zlatkit<br />
+cd zlatkit<br />
+git clone https://github.com/yanzlatov/zlatkit.git .<br />
 
 // Start docker<br />
 cd docker<br />
