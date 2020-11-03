@@ -53,6 +53,9 @@ REDIS_PORT=6379 <br />
 <a href="http://zlatkit.loc:8183/" aria-invalid="true">http://zlatkit.loc:8183/</a></p>
 <p style="text-align: center;"><br />
 <br />
+
+// Simlink storage in public directory<br />
+docker exec -it zlatkit-php-fpm php artisan storage:link<br />
 </p>
 </body>
 </html>
