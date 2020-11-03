@@ -5,6 +5,7 @@
 <body>
 <p>
 // Start docker<br />
+cp .env.example .env<br />
 cd docker<br />
 docker-compose build<br />
 docker-compose up -d<br />
