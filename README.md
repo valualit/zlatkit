@@ -35,8 +35,8 @@ DB_CONNECTION=mysql<br />
 DB_HOST=zlatkit-mysql<br />
 DB_PORT=3306<br />
 DB_DATABASE=zlatkit<br />
-DB_USERNAME=zlatkit<br />
-DB_PASSWORD=zlatkit<br />
+DB_USERNAME=root<br />
+DB_PASSWORD=root<br />
 <br />
 REDIS_HOST=zlatkit-redis<br />
 REDIS_PASSWORD=redis<br />
