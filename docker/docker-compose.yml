@@ -8,13 +8,15 @@ services:
     tty: true
     ports:
       - "3306:3306"
+    command: --init-file /init.sql
     volumes:
       - ./sourcefiles/mysql:/var/lib/mysql
+      - ./init.sql:/init.sql
     environment:
       MYSQL_DATABASE: mysql
       MYSQL_USER: mysql
       MYSQL_PASSWORD: mysql
-      MYSQL_ROOT_PASSWORD: mysql
+      MYSQL_ROOT_PASSWORD: root
       SERVICE_TAGS: dev
       SERVICE_NAME: mysql
   phpmyadmin:

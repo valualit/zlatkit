@@ -14,3 +14,6 @@ yarn-error.log
 .phpdoc/
 worker.log
 /.idea/
+/docker/sourcefiles/mysql
+/docker/sourcefiles/redis
+
